@@ -11,6 +11,7 @@ public class Application {
 		System.out.println("Enter your birth year: ");
 		int birthYearInput = sc.nextInt();
 		
+		// dogum yılınızın 12 ile bolumunden kalan sayı kac ise, o case calisacaktir.Eger 0 ila 11 arası bir sayi cikmamis ise default calisacaktir.
 		switch(birthYearInput % 12) {
 		
 		case 0: System.out.println("Your Chinese Zodiac Sign: Monkey");
